@@ -1,0 +1,8 @@
+dim x as string = " "
+dim xkalimat as string = " "
+for i=1 to len(textbox.text)
+	x=mid(textbox1.text,i,i)
+		x=chr(asc(x)+3)
+		xkalimat=xkalimat+x
+next
+textbox2.text=xkalimat
